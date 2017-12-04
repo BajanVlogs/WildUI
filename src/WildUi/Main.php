@@ -49,10 +49,10 @@ class Main extends PluginBase implements Listener {
 							case 0:
 								// Wild
 								// If Wild is for op command use this so console will tp player
-								$this->getServer()->dispatchCommand(new ConsoleCommandSender, "wild " . $sender . " ");
+								$this->getServer()->dispatchCommand(new ConsoleCommandSender, "wild" . $sender . " ");
 								
 								// If wild player is for everybody use this
-								//$command = "wild ";
+								//$command = "wild";
 								//$this->getServer()->getCommandMap()->dispatch($sender, $command);
 								break;
 								
