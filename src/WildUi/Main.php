@@ -52,7 +52,7 @@ class Main extends PluginBase implements Listener {
 								$this->getServer()->dispatchCommand(new ConsoleCommandSender, "wild " . $sender . " ");
 								
 								// If wild player is for everybody use this
-								//$command = "wild";
+								//$command = "wild ";
 								//$this->getServer()->getCommandMap()->dispatch($sender, $command);
 								break;
 								
