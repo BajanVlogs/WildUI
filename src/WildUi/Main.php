@@ -1,6 +1,6 @@
 <?php
 
-namespace WildUI;
+namespace WildUi;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
